@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444;
+    background-color: darkgray;
+}
+
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box-item{
+    padding: 4rem;
+    text-align: center;
+    box-shadow: 2px 3px 4px 2px rgba(119, 119, 119, 0.404);
+    margin: 1rem;
+    flex-basis: 250px;
+    flex-grow: 1;
+    background-color: darkblue;
+    border-radius: 1rem;
+    
+}
+
+
+
+.counter{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.social-name{
+    font-size: 1.5rem;
+    color: #ddd;
+}
